@@ -6,6 +6,8 @@ public class introductionjavaclass02 {
             System.out.println("I am learning java");
             System.out.println("How can I help you today?");
             System.out.println("i love doing yoga");
+            System.out.println("im excided to take this course.");
+
         }
     }
 
