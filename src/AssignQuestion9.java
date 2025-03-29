@@ -1,21 +1,24 @@
 import java.util.Scanner;
+
 public class AssignQuestion9 {
-    public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in); // Create Scanner object
+        public static void main(String[] args) {
+            // Create a Scanner object to get user input
+            Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine(); // Reads a full line of text
+            // Prompt the user to enter the number of pounds
+            System.out.print("Enter weight in pounds: ");
+            double pounds = input.nextDouble();
 
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt(); // Reads an integer
+            // Convert pounds to kilograms
+            double kilograms = pounds * 0.454;
 
-        System.out.print("Enter your height: ");
-        double height = scanner.nextDouble(); // Reads a decimal number
+            // Display the result
+            System.out.println(pounds + " pounds is equal to " + kilograms + " kilograms.");
 
-        System.out.println("Hello " + name + ", you are " + age + " years old and " + height + " meters tall.");
-
-        scanner.close(); // Close the scanner to prevent memory leaks
+            // Close the scanner
+            input.close();
+        }
     }
-    }
+
 
