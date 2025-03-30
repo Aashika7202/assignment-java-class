@@ -15,7 +15,8 @@ public class AssignQuestion19 {
                 System.out.println("This is Isosceles Triangle ");
             }
             else {
-                System.out.print("The triangle is a Scalene triangle.");} } else {
+                System.out.print("The triangle is a Scalene triangle.");}
+        } else {
                 System.out.print("Invalid triangle");
             }
         }
