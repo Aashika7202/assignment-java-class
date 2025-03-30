@@ -13,6 +13,10 @@ public class ScannerClass{
         String name = scanner.nextLine();
         System.out.println("Name: " + name);
 
+        System.out.print("Enter any operator(+, -, *, /) ");
+        char operator = scanner.next().charAt(0);
+
+
         // 2. Accepting and Printing Integer
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
