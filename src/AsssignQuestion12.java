@@ -21,12 +21,6 @@ public class AsssignQuestion12 {
 
         scanner.close();
 
-
-
-
-
-
-
     }
 
 }
